@@ -1,0 +1,42 @@
+{
+  "name": "wm-pricer",
+  "version": "4.0.0",
+  "description": "Find stuff and things at good prices",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "wm-pricer-cli.js",
+    "lib/wm-pricer.js",
+  ],
+  "bin": {
+    "wmpricer": "wm-pricer-cli.js",
+    "wmPricer": "wm-pricer-cli.js",
+    "wmp": "wm-pricer-cli.js"
+  },
+  "scripts": {
+    "test": "mvt --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musocrat/wm-pricer.git"
+  },
+  "keywords": [
+    "walmart",
+    "deal",
+    "finder"
+  ],
+  "author": "Andrew Carpenter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/musocrat/wm-pricer/issues"
+  },
+  "homepage": "https://github.com/musocrat/wm-pricer#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "prettyjson": "^1.2.1",
+    "walmart": "0.0.4"
+  },
+  "devDependencies": {
+    "mvt": "^4.0.0"
+  }
+}
